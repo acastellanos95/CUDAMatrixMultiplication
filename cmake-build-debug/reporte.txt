@@ -1,18 +1,3 @@
-# CUDAMatrixMultiplication
- Implementation of non-squared matrix multiplication in CUDA and Strassen algorithm in CUDA
-
-## Algorithms
-
-1. Normal multiplication (sequential)
-2. Parallel multiplication (OpenMP)
-3. Normal Strassen multiplication
-4. Parallel Strassen multiplication (OpenMP)
-5. CUDA multiplication using shared memory
-6. CUDA Strassen multiplication
-
-## Results
-
-```
 dimension: 256, threshold: 128
 ---------------------------------------------------------------
 |           Algoritmo          | Tiempo (s) | Error to normal |
@@ -68,4 +53,3 @@ dimension: 4096, threshold: 128
 | CUDA multiplication          |   0.321269 |      0.00976562 |
 | CUDA Strassen multiplication |    24.8411 |         1.18945 |
 ---------------------------------------------------------------
-```
